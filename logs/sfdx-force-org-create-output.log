@@ -1,11 +1,11 @@
 Executing: /root/.local/share/sfdx/client/bin/sfdx force:org:create --durationdays=30 --setdefaultusername --definitionfile=config/project-scratch-def.json --dev-debug
-2021-05-04T08:39:36.513Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6
-2021-05-04T08:39:36.514Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/package.json
-2021-05-04T08:39:36.518Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/oclif.manifest.json
-2021-05-04T08:39:36.519Z @oclif/config:sfdx-cli using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/oclif.manifest.json
-2021-05-04T08:39:36.520Z @oclif/config reading user plugins pjson /root/.local/share/sfdx/package.json
-2021-05-04T08:39:36.520Z @oclif/config loadJSON /root/.local/share/sfdx/package.json
-2021-05-04T08:39:36.521Z @oclif/config loading plugins [
+2021-05-04T09:12:05.114Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6
+2021-05-04T09:12:05.115Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/package.json
+2021-05-04T09:12:05.119Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/oclif.manifest.json
+2021-05-04T09:12:05.119Z @oclif/config:sfdx-cli using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/oclif.manifest.json
+2021-05-04T09:12:05.120Z @oclif/config reading user plugins pjson /root/.local/share/sfdx/package.json
+2021-05-04T09:12:05.120Z @oclif/config loadJSON /root/.local/share/sfdx/package.json
+2021-05-04T09:12:05.121Z @oclif/config loading plugins [
   '@oclif/plugin-autocomplete',
   '@oclif/plugin-commands',
   '@oclif/plugin-help',
@@ -22,58 +22,58 @@ Executing: /root/.local/share/sfdx/client/bin/sfdx force:org:create --durationda
   '@salesforce/plugin-telemetry',
   'salesforcedx'
 ]
-2021-05-04T08:39:36.527Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete
-2021-05-04T08:39:36.527Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete/package.json
-2021-05-04T08:39:36.528Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands
-2021-05-04T08:39:36.528Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands/package.json
-2021-05-04T08:39:36.528Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help
-2021-05-04T08:39:36.528Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help/package.json
-2021-05-04T08:39:36.528Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found
-2021-05-04T08:39:36.528Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/package.json
-2021-05-04T08:39:36.529Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins
-2021-05-04T08:39:36.529Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins/package.json
-2021-05-04T08:39:36.529Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update
-2021-05-04T08:39:36.529Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/package.json
-2021-05-04T08:39:36.529Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available
-2021-05-04T08:39:36.529Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/package.json
-2021-05-04T08:39:36.529Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which
-2021-05-04T08:39:36.529Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which/package.json
-2021-05-04T08:39:36.529Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator
-2021-05-04T08:39:36.530Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/package.json
-2021-05-04T08:39:36.530Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config
-2021-05-04T08:39:36.530Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/package.json
-2021-05-04T08:39:36.530Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias
-2021-05-04T08:39:36.530Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias/package.json
-2021-05-04T08:39:36.530Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth
-2021-05-04T08:39:36.530Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth/package.json
-2021-05-04T08:39:36.531Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust
-2021-05-04T08:39:36.531Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust/package.json
-2021-05-04T08:39:36.531Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry
-2021-05-04T08:39:36.531Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/package.json
-2021-05-04T08:39:36.531Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx
-2021-05-04T08:39:36.531Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:36.535Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete/oclif.manifest.json
-2021-05-04T08:39:36.535Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands/oclif.manifest.json
-2021-05-04T08:39:36.536Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help/oclif.manifest.json
-2021-05-04T08:39:36.537Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
-2021-05-04T08:39:36.538Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins/oclif.manifest.json
-2021-05-04T08:39:36.539Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/oclif.manifest.json
-2021-05-04T08:39:36.540Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
-2021-05-04T08:39:36.541Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which/oclif.manifest.json
-2021-05-04T08:39:36.542Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/oclif.manifest.json
-2021-05-04T08:39:36.543Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/oclif.manifest.json
-2021-05-04T08:39:36.544Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias/oclif.manifest.json
-2021-05-04T08:39:36.545Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth/oclif.manifest.json
-2021-05-04T08:39:36.547Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust/oclif.manifest.json
-2021-05-04T08:39:36.547Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/oclif.manifest.json
-2021-05-04T08:39:36.548Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/oclif.manifest.json
-2021-05-04T08:39:36.548Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/.oclif.manifest.json
-2021-05-04T08:39:36.549Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/.oclif.manifest.json
-2021-05-04T08:39:36.616Z @oclif/config:salesforcedx loading IDs from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/lib/commands
-2021-05-04T08:39:36.639Z @oclif/config:salesforcedx found commands [ 'force:lightning:lint' ]
-2021-05-04T08:39:36.642Z @oclif/config:salesforcedx require /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/lib/commands/force/lightning/lint.js
-2021-05-04T08:39:36.928Z sfdx:core TRACE Setup child 'core:config' logger instance
-2021-05-04T08:39:37.124Z @oclif/config loading plugins [
+2021-05-04T09:12:05.125Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete
+2021-05-04T09:12:05.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete/package.json
+2021-05-04T09:12:05.125Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands
+2021-05-04T09:12:05.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands/package.json
+2021-05-04T09:12:05.125Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help
+2021-05-04T09:12:05.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help/package.json
+2021-05-04T09:12:05.125Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found
+2021-05-04T09:12:05.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/package.json
+2021-05-04T09:12:05.126Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins
+2021-05-04T09:12:05.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins/package.json
+2021-05-04T09:12:05.126Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update
+2021-05-04T09:12:05.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/package.json
+2021-05-04T09:12:05.126Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available
+2021-05-04T09:12:05.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/package.json
+2021-05-04T09:12:05.126Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which
+2021-05-04T09:12:05.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which/package.json
+2021-05-04T09:12:05.126Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator
+2021-05-04T09:12:05.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/package.json
+2021-05-04T09:12:05.126Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config
+2021-05-04T09:12:05.127Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/package.json
+2021-05-04T09:12:05.127Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias
+2021-05-04T09:12:05.127Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias/package.json
+2021-05-04T09:12:05.127Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth
+2021-05-04T09:12:05.127Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth/package.json
+2021-05-04T09:12:05.127Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust
+2021-05-04T09:12:05.127Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust/package.json
+2021-05-04T09:12:05.127Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry
+2021-05-04T09:12:05.127Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/package.json
+2021-05-04T09:12:05.127Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx
+2021-05-04T09:12:05.127Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.130Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete/oclif.manifest.json
+2021-05-04T09:12:05.131Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands/oclif.manifest.json
+2021-05-04T09:12:05.132Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help/oclif.manifest.json
+2021-05-04T09:12:05.132Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
+2021-05-04T09:12:05.133Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins/oclif.manifest.json
+2021-05-04T09:12:05.133Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/oclif.manifest.json
+2021-05-04T09:12:05.134Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
+2021-05-04T09:12:05.134Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which/oclif.manifest.json
+2021-05-04T09:12:05.135Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/oclif.manifest.json
+2021-05-04T09:12:05.136Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/oclif.manifest.json
+2021-05-04T09:12:05.136Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias/oclif.manifest.json
+2021-05-04T09:12:05.137Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth/oclif.manifest.json
+2021-05-04T09:12:05.138Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust/oclif.manifest.json
+2021-05-04T09:12:05.139Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/oclif.manifest.json
+2021-05-04T09:12:05.139Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/oclif.manifest.json
+2021-05-04T09:12:05.140Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/.oclif.manifest.json
+2021-05-04T09:12:05.141Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/.oclif.manifest.json
+2021-05-04T09:12:05.183Z @oclif/config:salesforcedx loading IDs from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/lib/commands
+2021-05-04T09:12:05.196Z @oclif/config:salesforcedx found commands [ 'force:lightning:lint' ]
+2021-05-04T09:12:05.198Z @oclif/config:salesforcedx require /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/lib/commands/force/lightning/lint.js
+2021-05-04T09:12:05.488Z sfdx:core TRACE Setup child 'core:config' logger instance
+2021-05-04T09:12:05.684Z @oclif/config loading plugins [
   '@salesforce/plugin-apex',
   '@salesforce/plugin-data',
   '@salesforce/plugin-custom-metadata',
@@ -85,238 +85,238 @@ Executing: /root/.local/share/sfdx/client/bin/sfdx force:org:create --durationda
   '@salesforce/sfdx-plugin-lwc-test',
   'salesforce-alm'
 ]
-2021-05-04T08:39:37.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.125Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.126Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
-2021-05-04T08:39:37.128Z @oclif/config:@oclif/plugin-autocomplete using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete/oclif.manifest.json
-2021-05-04T08:39:37.129Z @oclif/config:@oclif/plugin-commands using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands/oclif.manifest.json
-2021-05-04T08:39:37.129Z @oclif/config:@oclif/plugin-help using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help/oclif.manifest.json
-2021-05-04T08:39:37.129Z @oclif/config:@oclif/plugin-not-found using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
-2021-05-04T08:39:37.129Z @oclif/config:@oclif/plugin-plugins using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins/oclif.manifest.json
-2021-05-04T08:39:37.129Z @oclif/config:@oclif/plugin-update using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/oclif.manifest.json
-2021-05-04T08:39:37.130Z @oclif/config:@oclif/plugin-warn-if-update-available using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
-2021-05-04T08:39:37.130Z @oclif/config:@oclif/plugin-which using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which/oclif.manifest.json
-2021-05-04T08:39:37.130Z @oclif/config:@salesforce/plugin-config using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/oclif.manifest.json
-2021-05-04T08:39:37.130Z @oclif/config:@salesforce/plugin-alias using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias/oclif.manifest.json
-2021-05-04T08:39:37.130Z @oclif/config:@salesforce/plugin-auth using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth/oclif.manifest.json
-2021-05-04T08:39:37.130Z @oclif/config:@salesforce/sfdx-trust using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust/oclif.manifest.json
-2021-05-04T08:39:37.131Z @oclif/config:@salesforce/plugin-telemetry using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/oclif.manifest.json
-2021-05-04T08:39:37.131Z @oclif/config:@salesforce/plugin-generator using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/.oclif.manifest.json
-2021-05-04T08:39:37.131Z @oclif/config loading plugins [
+2021-05-04T09:12:05.685Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.685Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.685Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.685Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.685Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.686Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.686Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.686Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.686Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.686Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforcedx/package.json
+2021-05-04T09:12:05.689Z @oclif/config:@oclif/plugin-autocomplete using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-autocomplete/oclif.manifest.json
+2021-05-04T09:12:05.690Z @oclif/config:@oclif/plugin-commands using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-commands/oclif.manifest.json
+2021-05-04T09:12:05.690Z @oclif/config:@oclif/plugin-help using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-help/oclif.manifest.json
+2021-05-04T09:12:05.690Z @oclif/config:@oclif/plugin-not-found using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
+2021-05-04T09:12:05.690Z @oclif/config:@oclif/plugin-plugins using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-plugins/oclif.manifest.json
+2021-05-04T09:12:05.690Z @oclif/config:@oclif/plugin-update using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/oclif.manifest.json
+2021-05-04T09:12:05.690Z @oclif/config:@oclif/plugin-warn-if-update-available using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
+2021-05-04T09:12:05.691Z @oclif/config:@oclif/plugin-which using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-which/oclif.manifest.json
+2021-05-04T09:12:05.691Z @oclif/config:@salesforce/plugin-config using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/oclif.manifest.json
+2021-05-04T09:12:05.691Z @oclif/config:@salesforce/plugin-alias using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-alias/oclif.manifest.json
+2021-05-04T09:12:05.691Z @oclif/config:@salesforce/plugin-auth using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-auth/oclif.manifest.json
+2021-05-04T09:12:05.691Z @oclif/config:@salesforce/sfdx-trust using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-trust/oclif.manifest.json
+2021-05-04T09:12:05.692Z @oclif/config:@salesforce/plugin-telemetry using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/oclif.manifest.json
+2021-05-04T09:12:05.693Z @oclif/config:@salesforce/plugin-generator using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/.oclif.manifest.json
+2021-05-04T09:12:05.693Z @oclif/config loading plugins [
   '@oclif/plugin-help',
   '@oclif/plugin-warn-if-update-available',
   '@oclif/plugin-not-found'
 ]
-2021-05-04T08:39:37.132Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/package.json
-2021-05-04T08:39:37.132Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/package.json
-2021-05-04T08:39:37.132Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help
-2021-05-04T08:39:37.132Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help/package.json
-2021-05-04T08:39:37.133Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.133Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.133Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.133Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.134Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.134Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.134Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.134Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.135Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.135Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.135Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex
-2021-05-04T08:39:37.135Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex/package.json
-2021-05-04T08:39:37.135Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data
-2021-05-04T08:39:37.136Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data/package.json
-2021-05-04T08:39:37.136Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits
-2021-05-04T08:39:37.136Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits/package.json
-2021-05-04T08:39:37.136Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata
-2021-05-04T08:39:37.136Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata/package.json
-2021-05-04T08:39:37.136Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org
-2021-05-04T08:39:37.136Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org/package.json
-2021-05-04T08:39:37.137Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema
-2021-05-04T08:39:37.137Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema/package.json
-2021-05-04T08:39:37.137Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates
-2021-05-04T08:39:37.137Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates/package.json
-2021-05-04T08:39:37.137Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user
-2021-05-04T08:39:37.137Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user/package.json
-2021-05-04T08:39:37.137Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm
-2021-05-04T08:39:37.137Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/package.json
-2021-05-04T08:39:37.138Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test
-2021-05-04T08:39:37.138Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test/package.json
-2021-05-04T08:39:37.139Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/package.json
-2021-05-04T08:39:37.139Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/package.json
-2021-05-04T08:39:37.139Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help/oclif.manifest.json
-2021-05-04T08:39:37.140Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.140Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
-2021-05-04T08:39:37.141Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available
-2021-05-04T08:39:37.141Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/package.json
-2021-05-04T08:39:37.141Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found
-2021-05-04T08:39:37.141Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/package.json
-2021-05-04T08:39:37.142Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex/oclif.manifest.json
-2021-05-04T08:39:37.143Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data/oclif.manifest.json
-2021-05-04T08:39:37.144Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits/oclif.manifest.json
-2021-05-04T08:39:37.145Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata/oclif.manifest.json
-2021-05-04T08:39:37.146Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org/oclif.manifest.json
-2021-05-04T08:39:37.146Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema/oclif.manifest.json
-2021-05-04T08:39:37.147Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates/oclif.manifest.json
-2021-05-04T08:39:37.148Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user/oclif.manifest.json
-2021-05-04T08:39:37.150Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/oclif.manifest.json
-2021-05-04T08:39:37.151Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test/oclif.manifest.json
-2021-05-04T08:39:37.152Z @oclif/config:@oclif/plugin-help using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help/oclif.manifest.json
-2021-05-04T08:39:37.153Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
-2021-05-04T08:39:37.153Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
-2021-05-04T08:39:37.153Z @oclif/config:@salesforce/plugin-data using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data/oclif.manifest.json
-2021-05-04T08:39:37.154Z @oclif/config:@salesforce/plugin-limits using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits/oclif.manifest.json
-2021-05-04T08:39:37.154Z @oclif/config:@salesforce/plugin-custom-metadata using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata/oclif.manifest.json
-2021-05-04T08:39:37.154Z @oclif/config:@salesforce/plugin-apex using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex/oclif.manifest.json
-2021-05-04T08:39:37.154Z @oclif/config:@salesforce/plugin-schema using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema/oclif.manifest.json
-2021-05-04T08:39:37.155Z @oclif/config:@salesforce/plugin-user using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user/oclif.manifest.json
-2021-05-04T08:39:37.155Z @oclif/config:@salesforce/plugin-templates using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates/oclif.manifest.json
-2021-05-04T08:39:37.157Z @oclif/config:salesforce-alm using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/oclif.manifest.json
-2021-05-04T08:39:37.157Z @oclif/config:@salesforce/plugin-org using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org/oclif.manifest.json
-2021-05-04T08:39:37.158Z @oclif/config:@salesforce/sfdx-plugin-lwc-test using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test/oclif.manifest.json
-2021-05-04T08:39:37.158Z @oclif/config:@oclif/plugin-warn-if-update-available using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
-2021-05-04T08:39:37.158Z @oclif/config:@oclif/plugin-not-found using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
-2021-05-04T08:39:37.158Z @oclif/config config done
-2021-05-04T08:39:37.159Z sfdx                        OS:
-2021-05-04T08:39:37.159Z sfdx                  platform: linux
-2021-05-04T08:39:37.159Z sfdx              architecture: x64
-2021-05-04T08:39:37.159Z sfdx                   release: 5.4.72-microsoft-standard-WSL2
-2021-05-04T08:39:37.159Z sfdx                     shell: bash
-2021-05-04T08:39:37.159Z sfdx                      NODE:
-2021-05-04T08:39:37.159Z sfdx                   version: 15.14.0
-2021-05-04T08:39:37.160Z sfdx                       CLI:
-2021-05-04T08:39:37.160Z sfdx                   version: 7.99.0
-2021-05-04T08:39:37.160Z sfdx                   channel: stable
-2021-05-04T08:39:37.160Z sfdx                       bin: sfdx
-2021-05-04T08:39:37.160Z sfdx                      data: /root/.local/share/sfdx
-2021-05-04T08:39:37.160Z sfdx                     cache: /root/.cache/sfdx
-2021-05-04T08:39:37.160Z sfdx                    config: /root/.config/sfdx
-2021-05-04T08:39:37.160Z sfdx                       ENV:
-2021-05-04T08:39:37.160Z sfdx              NODE_OPTIONS: <not set>
-2021-05-04T08:39:37.160Z sfdx   SFDX_AUTOUPDATE_DISABLE: <not set>
-2021-05-04T08:39:37.160Z sfdx              SFDX_BINPATH: /root/.local/share/sfdx/client/bin/sfdx
-2021-05-04T08:39:37.160Z sfdx        SFDX_COMPILE_CACHE: <not set>
-2021-05-04T08:39:37.160Z sfdx   SFDX_DISABLE_AUTOUPDATE: <not set>
-2021-05-04T08:39:37.160Z sfdx                  SFDX_ENV: development
-2021-05-04T08:39:37.160Z sfdx            SFDX_INSTALLER: true
-2021-05-04T08:39:37.160Z sfdx    SFDX_LAZY_LOAD_MODULES: true
-2021-05-04T08:39:37.160Z sfdx         SFDX_NPM_REGISTRY: <not set>
-2021-05-04T08:39:37.160Z sfdx           SFDX_REDIRECTED: 1
-2021-05-04T08:39:37.160Z sfdx              SFDX_S3_HOST: <not set>
-2021-05-04T08:39:37.161Z sfdx  SFDX_UPDATE_INSTRUCTIONS: <not set>
-2021-05-04T08:39:37.161Z sfdx                      ARGS:
-2021-05-04T08:39:37.161Z sfdx                         0: /root/.local/share/sfdx/client/7.99.0-79e53c6/bin/node
-2021-05-04T08:39:37.161Z sfdx                         1: /root/.local/share/sfdx/client/7.99.0-79e53c6/bin/run
-2021-05-04T08:39:37.161Z sfdx                         2: force:org:create
-2021-05-04T08:39:37.161Z sfdx                         3: --durationdays=30
-2021-05-04T08:39:37.161Z sfdx                         4: --setdefaultusername
-2021-05-04T08:39:37.161Z sfdx                         5: --definitionfile=config/project-scratch-def.json
-2021-05-04T08:39:37.162Z lazy-require loading type cache from /root/.cache/sfdx/module-types.json
-2021-05-04T08:39:37.163Z lazy-require loaded type cache
-2021-05-04T08:39:37.163Z lazy-require parsing type cache
-2021-05-04T08:39:37.164Z lazy-require parsed type cache
-2021-05-04T08:39:37.164Z lazy-require enabled
-2021-05-04T08:39:37.166Z @oclif/config start init hook
-2021-05-04T08:39:37.167Z sfdx:@oclif/plugin-update:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/lib/hooks/init
-2021-05-04T08:39:37.193Z sfdx:@oclif/plugin-warn-if-update-available:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/lib/hooks/init/check-update
-2021-05-04T08:39:37.216Z sfdx:@salesforce/plugin-config:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/lib/hooks/init/load_config_meta
-2021-05-04T08:39:37.219Z sfdx:core TRACE Setup child 'plugin-config:load_config_meta' logger instance
-2021-05-04T08:39:37.219Z sfdx:plugin-config:load_config_meta INFO No config meta found for sfdx-cli
-2021-05-04T08:39:37.219Z sfdx:plugin-config:load_config_meta INFO No config meta found for salesforcedx
-2021-05-04T08:39:37.220Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-autocomplete
-2021-05-04T08:39:37.220Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-commands
-2021-05-04T08:39:37.220Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-help
-2021-05-04T08:39:37.220Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-not-found
-2021-05-04T08:39:37.224Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-plugins
-2021-05-04T08:39:37.224Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-update
-2021-05-04T08:39:37.225Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-warn-if-update-available
-2021-05-04T08:39:37.225Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-which
-2021-05-04T08:39:37.225Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-config
-2021-05-04T08:39:37.225Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-alias
-2021-05-04T08:39:37.225Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-auth
-2021-05-04T08:39:37.225Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/sfdx-trust
-2021-05-04T08:39:37.226Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-telemetry
-2021-05-04T08:39:37.226Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-generator
-2021-05-04T08:39:37.226Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-data
-2021-05-04T08:39:37.226Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-limits
-2021-05-04T08:39:37.227Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-custom-metadata
-2021-05-04T08:39:37.227Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-apex
-2021-05-04T08:39:37.227Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-schema
-2021-05-04T08:39:37.227Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-user
-2021-05-04T08:39:37.227Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-templates
-2021-05-04T08:39:37.227Z sfdx:plugin-config:load_config_meta INFO No config meta found for salesforce-alm
-2021-05-04T08:39:37.228Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-org
-2021-05-04T08:39:37.228Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/sfdx-plugin-lwc-test
-2021-05-04T08:39:37.228Z sfdx:@salesforce/plugin-telemetry:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/lib/hooks/telemetryInit.js
-2021-05-04T08:39:37.230Z sfdx:@salesforce/plugin-config:hooks:init done
-2021-05-04T08:39:37.230Z sfdx:@salesforce/plugin-telemetry:hooks:init done
-2021-05-04T08:39:37.231Z sfdx:@oclif/plugin-update:hooks:init done
-2021-05-04T08:39:37.232Z sfdx:@oclif/plugin-warn-if-update-available:hooks:init done
-2021-05-04T08:39:37.233Z @oclif/config init hook done
-2021-05-04T08:39:37.233Z sfdx init version: @oclif/command@1.8.0 argv: [ 'force:org:create', '--durationdays=30', '--setdefaultusername', '--definitionfile=config/project-scratch-def.json' ]
-2021-05-04T08:39:37.238Z @oclif/config runCommand force:org:create [ '--durationdays=30', '--setdefaultusername', '--definitionfile=config/project-scratch-def.json' ]
-2021-05-04T08:39:37.239Z @oclif/config:salesforce-alm require /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/dist/commands/force/org/create.js
-2021-05-04T08:39:37.431Z @oclif/config start prerun hook
-2021-05-04T08:39:37.432Z sfdx:@salesforce/plugin-telemetry:hooks:prerun start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/lib/hooks/telemetryPrerun.js
-2021-05-04T08:39:37.440Z sfdx:core TRACE Setup child 'Config' logger instance
-2021-05-04T08:39:37.442Z sfdx:core TRACE Setup child 'Config' logger instance
-2021-05-04T08:39:37.442Z sfdx:Config INFO Reading config file: /root/.sfdx/sfdx-config.json
-2021-05-04T08:39:37.444Z sfdx:Config INFO Reading config file: /workspaces/sfdx-org-create/.sfdx/sfdx-config.json
-2021-05-04T08:39:37.447Z sfdx:telemetry@1.1.2 Usage acknowledgement file already exists
-2021-05-04T08:39:37.448Z sfdx:telemetry@1.1.2 Using telemetry logging file /tmp/sfdx-telemetry/telemetry-466b0d487cd6371663f6a855952687d3f98760cf.log
-2021-05-04T08:39:37.452Z sfdx:telemetry@1.1.2 Setting up process exit handler
-2021-05-04T08:39:37.452Z sfdx:@salesforce/plugin-telemetry:hooks:prerun done
-2021-05-04T08:39:37.452Z @oclif/config prerun hook done
-2021-05-04T08:39:37.453Z sfdx:core TRACE Setup child 'OrgCreateCommand' logger instance
-2021-05-04T08:39:37.467Z sfdx:force:org:create init version: @oclif/command@1.8.0 argv: [ '--durationdays=30', '--setdefaultusername', '--definitionfile=config/project-scratch-def.json' ]
-2021-05-04T08:39:37.469Z sfdx:OrgCreateCommand INFO Running command [OrgCreateCommand] with flags [{"durationdays":30,"setdefaultusername":true,"definitionfile":"config/project-scratch-def.json","loglevel":"warn","type":"scratch","wait":{"quantity":6,"unit":0}}] and args [{}]
-2021-05-04T08:39:37.471Z sfdx:core TRACE Setup child 'Org' logger instance
-2021-05-04T08:39:37.472Z sfdx:core TRACE Setup child 'Aliases' logger instance
-2021-05-04T08:39:37.473Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
-2021-05-04T08:39:37.475Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
-2021-05-04T08:39:37.476Z sfdx:core TRACE Setup child 'crypto' logger instance
-2021-05-04T08:39:37.476Z sfdx:crypto DEBUG retryStatus: undefined
-2021-05-04T08:39:37.477Z sfdx:core TRACE Setup child 'keyChain' logger instance
-2021-05-04T08:39:37.477Z sfdx:keyChain DEBUG platform: linux
-2021-05-04T08:39:37.480Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:37.480Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:37.481Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:37.481Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:37.484Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
-2021-05-04T08:39:37.484Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/test-q3xx84x5pqru@example.com.json
-2021-05-04T08:39:37.486Z sfdx:AuthInfo INFO Updated auth info for username: test-q3xx84x5pqru@example.com
-2021-05-04T08:39:37.487Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
-2021-05-04T08:39:37.493Z sfdx:core TRACE Setup child 'connection' logger instance
-2021-05-04T08:39:37.519Z sfdx:connection DEBUG Last checked on 5/4/2021, 8:38:43 AM (now is 5/4/2021, 8:39:37 AM) - not getting latest
-2021-05-04T08:39:37.519Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
-2021-05-04T08:39:37.519Z sfdx:connection DEBUG Using apiVersion 51.0
-2021-05-04T08:39:37.520Z sfdx:core TRACE Setup child 'Org' logger instance
-2021-05-04T08:39:37.521Z sfdx:core TRACE Setup child 'Aliases' logger instance
-2021-05-04T08:39:37.521Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
-2021-05-04T08:39:37.523Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
-2021-05-04T08:39:37.523Z sfdx:core TRACE Setup child 'crypto' logger instance
-2021-05-04T08:39:37.523Z sfdx:crypto DEBUG retryStatus: undefined
-2021-05-04T08:39:37.524Z sfdx:core TRACE Setup child 'keyChain' logger instance
-2021-05-04T08:39:37.524Z sfdx:keyChain DEBUG platform: linux
-2021-05-04T08:39:37.525Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:37.526Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:37.527Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:37.527Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:37.529Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
-2021-05-04T08:39:37.529Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/devhub-user@example.com.json
-2021-05-04T08:39:37.530Z sfdx:AuthInfo INFO Updated auth info for username: devhub-user@example.com
-2021-05-04T08:39:37.530Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
-2021-05-04T08:39:37.531Z sfdx:core TRACE Setup child 'connection' logger instance
-2021-05-04T08:39:37.532Z sfdx:connection DEBUG Last checked on 5/4/2021, 8:38:44 AM (now is 5/4/2021, 8:39:37 AM) - not getting latest
-2021-05-04T08:39:37.532Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
-2021-05-04T08:39:37.532Z sfdx:connection DEBUG Using apiVersion 51.0
-2021-05-04T08:39:37.542Z sfdx:OrgCreateCommand DEBUG [
+2021-05-04T09:12:05.693Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/package.json
+2021-05-04T09:12:05.693Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/package.json
+2021-05-04T09:12:05.694Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help
+2021-05-04T09:12:05.694Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help/package.json
+2021-05-04T09:12:05.695Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.695Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.695Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.696Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.696Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.696Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.696Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.697Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.697Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.697Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.698Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex
+2021-05-04T09:12:05.698Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex/package.json
+2021-05-04T09:12:05.698Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data
+2021-05-04T09:12:05.698Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data/package.json
+2021-05-04T09:12:05.698Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata
+2021-05-04T09:12:05.699Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata/package.json
+2021-05-04T09:12:05.699Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits
+2021-05-04T09:12:05.699Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits/package.json
+2021-05-04T09:12:05.699Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org
+2021-05-04T09:12:05.699Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org/package.json
+2021-05-04T09:12:05.700Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema
+2021-05-04T09:12:05.700Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema/package.json
+2021-05-04T09:12:05.700Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates
+2021-05-04T09:12:05.700Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates/package.json
+2021-05-04T09:12:05.700Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user
+2021-05-04T09:12:05.700Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user/package.json
+2021-05-04T09:12:05.700Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm
+2021-05-04T09:12:05.700Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/package.json
+2021-05-04T09:12:05.701Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test
+2021-05-04T09:12:05.701Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test/package.json
+2021-05-04T09:12:05.702Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/package.json
+2021-05-04T09:12:05.702Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/package.json
+2021-05-04T09:12:05.703Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help/oclif.manifest.json
+2021-05-04T09:12:05.704Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.704Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/package.json
+2021-05-04T09:12:05.705Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available
+2021-05-04T09:12:05.705Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/package.json
+2021-05-04T09:12:05.705Z @oclif/config reading core plugin /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found
+2021-05-04T09:12:05.706Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/package.json
+2021-05-04T09:12:05.707Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex/oclif.manifest.json
+2021-05-04T09:12:05.709Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data/oclif.manifest.json
+2021-05-04T09:12:05.710Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata/oclif.manifest.json
+2021-05-04T09:12:05.711Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits/oclif.manifest.json
+2021-05-04T09:12:05.712Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org/oclif.manifest.json
+2021-05-04T09:12:05.713Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema/oclif.manifest.json
+2021-05-04T09:12:05.715Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates/oclif.manifest.json
+2021-05-04T09:12:05.716Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user/oclif.manifest.json
+2021-05-04T09:12:05.719Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/oclif.manifest.json
+2021-05-04T09:12:05.720Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test/oclif.manifest.json
+2021-05-04T09:12:05.721Z @oclif/config:@oclif/plugin-help using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-generator/node_modules/@oclif/plugin-help/oclif.manifest.json
+2021-05-04T09:12:05.723Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
+2021-05-04T09:12:05.724Z @oclif/config loadJSON /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
+2021-05-04T09:12:05.724Z @oclif/config:@salesforce/plugin-apex using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-apex/oclif.manifest.json
+2021-05-04T09:12:05.725Z @oclif/config:@salesforce/plugin-data using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-data/oclif.manifest.json
+2021-05-04T09:12:05.725Z @oclif/config:@salesforce/plugin-custom-metadata using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-custom-metadata/oclif.manifest.json
+2021-05-04T09:12:05.726Z @oclif/config:@salesforce/plugin-limits using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-limits/oclif.manifest.json
+2021-05-04T09:12:05.726Z @oclif/config:@salesforce/plugin-org using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-org/oclif.manifest.json
+2021-05-04T09:12:05.726Z @oclif/config:@salesforce/plugin-schema using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-schema/oclif.manifest.json
+2021-05-04T09:12:05.726Z @oclif/config:@salesforce/plugin-templates using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-templates/oclif.manifest.json
+2021-05-04T09:12:05.727Z @oclif/config:@salesforce/plugin-user using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-user/oclif.manifest.json
+2021-05-04T09:12:05.728Z @oclif/config:salesforce-alm using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/oclif.manifest.json
+2021-05-04T09:12:05.729Z @oclif/config:@salesforce/sfdx-plugin-lwc-test using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/sfdx-plugin-lwc-test/oclif.manifest.json
+2021-05-04T09:12:05.730Z @oclif/config:@oclif/plugin-warn-if-update-available using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/oclif.manifest.json
+2021-05-04T09:12:05.730Z @oclif/config:@oclif/plugin-not-found using manifest from /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-not-found/oclif.manifest.json
+2021-05-04T09:12:05.730Z @oclif/config config done
+2021-05-04T09:12:05.731Z sfdx                        OS:
+2021-05-04T09:12:05.731Z sfdx                  platform: linux
+2021-05-04T09:12:05.731Z sfdx              architecture: x64
+2021-05-04T09:12:05.731Z sfdx                   release: 5.4.72-microsoft-standard-WSL2
+2021-05-04T09:12:05.731Z sfdx                     shell: bash
+2021-05-04T09:12:05.732Z sfdx                      NODE:
+2021-05-04T09:12:05.732Z sfdx                   version: 15.14.0
+2021-05-04T09:12:05.732Z sfdx                       CLI:
+2021-05-04T09:12:05.732Z sfdx                   version: 7.99.0
+2021-05-04T09:12:05.732Z sfdx                   channel: stable
+2021-05-04T09:12:05.732Z sfdx                       bin: sfdx
+2021-05-04T09:12:05.732Z sfdx                      data: /root/.local/share/sfdx
+2021-05-04T09:12:05.732Z sfdx                     cache: /root/.cache/sfdx
+2021-05-04T09:12:05.732Z sfdx                    config: /root/.config/sfdx
+2021-05-04T09:12:05.732Z sfdx                       ENV:
+2021-05-04T09:12:05.732Z sfdx              NODE_OPTIONS: <not set>
+2021-05-04T09:12:05.732Z sfdx   SFDX_AUTOUPDATE_DISABLE: <not set>
+2021-05-04T09:12:05.732Z sfdx              SFDX_BINPATH: /root/.local/share/sfdx/client/bin/sfdx
+2021-05-04T09:12:05.732Z sfdx        SFDX_COMPILE_CACHE: <not set>
+2021-05-04T09:12:05.732Z sfdx   SFDX_DISABLE_AUTOUPDATE: <not set>
+2021-05-04T09:12:05.733Z sfdx                  SFDX_ENV: development
+2021-05-04T09:12:05.733Z sfdx            SFDX_INSTALLER: true
+2021-05-04T09:12:05.733Z sfdx    SFDX_LAZY_LOAD_MODULES: true
+2021-05-04T09:12:05.733Z sfdx         SFDX_NPM_REGISTRY: <not set>
+2021-05-04T09:12:05.733Z sfdx           SFDX_REDIRECTED: 1
+2021-05-04T09:12:05.733Z sfdx              SFDX_S3_HOST: <not set>
+2021-05-04T09:12:05.733Z sfdx  SFDX_UPDATE_INSTRUCTIONS: <not set>
+2021-05-04T09:12:05.733Z sfdx                      ARGS:
+2021-05-04T09:12:05.733Z sfdx                         0: /root/.local/share/sfdx/client/7.99.0-79e53c6/bin/node
+2021-05-04T09:12:05.733Z sfdx                         1: /root/.local/share/sfdx/client/7.99.0-79e53c6/bin/run
+2021-05-04T09:12:05.733Z sfdx                         2: force:org:create
+2021-05-04T09:12:05.733Z sfdx                         3: --durationdays=30
+2021-05-04T09:12:05.733Z sfdx                         4: --setdefaultusername
+2021-05-04T09:12:05.733Z sfdx                         5: --definitionfile=config/project-scratch-def.json
+2021-05-04T09:12:05.735Z lazy-require loading type cache from /root/.cache/sfdx/module-types.json
+2021-05-04T09:12:05.736Z lazy-require loaded type cache
+2021-05-04T09:12:05.736Z lazy-require parsing type cache
+2021-05-04T09:12:05.737Z lazy-require parsed type cache
+2021-05-04T09:12:05.737Z lazy-require enabled
+2021-05-04T09:12:05.741Z @oclif/config start init hook
+2021-05-04T09:12:05.743Z sfdx:@oclif/plugin-update:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-update/lib/hooks/init
+2021-05-04T09:12:05.780Z sfdx:@oclif/plugin-warn-if-update-available:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@oclif/plugin-warn-if-update-available/lib/hooks/init/check-update
+2021-05-04T09:12:05.817Z sfdx:@salesforce/plugin-config:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-config/lib/hooks/init/load_config_meta
+2021-05-04T09:12:05.820Z sfdx:core TRACE Setup child 'plugin-config:load_config_meta' logger instance
+2021-05-04T09:12:05.821Z sfdx:plugin-config:load_config_meta INFO No config meta found for sfdx-cli
+2021-05-04T09:12:05.821Z sfdx:plugin-config:load_config_meta INFO No config meta found for salesforcedx
+2021-05-04T09:12:05.822Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-autocomplete
+2021-05-04T09:12:05.822Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-commands
+2021-05-04T09:12:05.822Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-help
+2021-05-04T09:12:05.823Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-not-found
+2021-05-04T09:12:05.823Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-plugins
+2021-05-04T09:12:05.823Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-update
+2021-05-04T09:12:05.824Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-warn-if-update-available
+2021-05-04T09:12:05.824Z sfdx:plugin-config:load_config_meta INFO No config meta found for @oclif/plugin-which
+2021-05-04T09:12:05.824Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-config
+2021-05-04T09:12:05.825Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-alias
+2021-05-04T09:12:05.825Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-auth
+2021-05-04T09:12:05.826Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/sfdx-trust
+2021-05-04T09:12:05.827Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-telemetry
+2021-05-04T09:12:05.827Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-generator
+2021-05-04T09:12:05.828Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-apex
+2021-05-04T09:12:05.828Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-data
+2021-05-04T09:12:05.828Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-custom-metadata
+2021-05-04T09:12:05.830Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-limits
+2021-05-04T09:12:05.830Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-org
+2021-05-04T09:12:05.831Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-schema
+2021-05-04T09:12:05.831Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-templates
+2021-05-04T09:12:05.832Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/plugin-user
+2021-05-04T09:12:05.832Z sfdx:plugin-config:load_config_meta INFO No config meta found for salesforce-alm
+2021-05-04T09:12:05.833Z sfdx:plugin-config:load_config_meta INFO No config meta found for @salesforce/sfdx-plugin-lwc-test
+2021-05-04T09:12:05.841Z sfdx:@salesforce/plugin-telemetry:hooks:init start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/lib/hooks/telemetryInit.js
+2021-05-04T09:12:05.843Z sfdx:@salesforce/plugin-config:hooks:init done
+2021-05-04T09:12:05.843Z sfdx:@salesforce/plugin-telemetry:hooks:init done
+2021-05-04T09:12:05.845Z sfdx:@oclif/plugin-update:hooks:init done
+2021-05-04T09:12:05.849Z sfdx:@oclif/plugin-warn-if-update-available:hooks:init done
+2021-05-04T09:12:05.849Z @oclif/config init hook done
+2021-05-04T09:12:05.849Z sfdx init version: @oclif/command@1.8.0 argv: [ 'force:org:create', '--durationdays=30', '--setdefaultusername', '--definitionfile=config/project-scratch-def.json' ]
+2021-05-04T09:12:05.865Z @oclif/config runCommand force:org:create [ '--durationdays=30', '--setdefaultusername', '--definitionfile=config/project-scratch-def.json' ]
+2021-05-04T09:12:05.866Z @oclif/config:salesforce-alm require /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/salesforce-alm/dist/commands/force/org/create.js
+2021-05-04T09:12:06.045Z @oclif/config start prerun hook
+2021-05-04T09:12:06.046Z sfdx:@salesforce/plugin-telemetry:hooks:prerun start /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/lib/hooks/telemetryPrerun.js
+2021-05-04T09:12:06.055Z sfdx:core TRACE Setup child 'Config' logger instance
+2021-05-04T09:12:06.056Z sfdx:core TRACE Setup child 'Config' logger instance
+2021-05-04T09:12:06.057Z sfdx:Config INFO Reading config file: /root/.sfdx/sfdx-config.json
+2021-05-04T09:12:06.058Z sfdx:Config INFO Reading config file: /workspaces/sfdx-org-create/.sfdx/sfdx-config.json
+2021-05-04T09:12:06.063Z sfdx:telemetry@1.1.2 Usage acknowledgement file already exists
+2021-05-04T09:12:06.064Z sfdx:telemetry@1.1.2 Using telemetry logging file /tmp/sfdx-telemetry/telemetry-6f1c56216fd9262065456ae0c1048561e12e7a33.log
+2021-05-04T09:12:06.068Z sfdx:telemetry@1.1.2 Setting up process exit handler
+2021-05-04T09:12:06.068Z sfdx:@salesforce/plugin-telemetry:hooks:prerun done
+2021-05-04T09:12:06.068Z @oclif/config prerun hook done
+2021-05-04T09:12:06.069Z sfdx:core TRACE Setup child 'OrgCreateCommand' logger instance
+2021-05-04T09:12:06.080Z sfdx:force:org:create init version: @oclif/command@1.8.0 argv: [ '--durationdays=30', '--setdefaultusername', '--definitionfile=config/project-scratch-def.json' ]
+2021-05-04T09:12:06.082Z sfdx:OrgCreateCommand INFO Running command [OrgCreateCommand] with flags [{"durationdays":30,"setdefaultusername":true,"definitionfile":"config/project-scratch-def.json","loglevel":"warn","type":"scratch","wait":{"quantity":6,"unit":0}}] and args [{}]
+2021-05-04T09:12:06.084Z sfdx:core TRACE Setup child 'Org' logger instance
+2021-05-04T09:12:06.085Z sfdx:core TRACE Setup child 'Aliases' logger instance
+2021-05-04T09:12:06.085Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
+2021-05-04T09:12:06.087Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
+2021-05-04T09:12:06.087Z sfdx:core TRACE Setup child 'crypto' logger instance
+2021-05-04T09:12:06.088Z sfdx:crypto DEBUG retryStatus: undefined
+2021-05-04T09:12:06.089Z sfdx:core TRACE Setup child 'keyChain' logger instance
+2021-05-04T09:12:06.089Z sfdx:keyChain DEBUG platform: linux
+2021-05-04T09:12:06.091Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:06.092Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:06.093Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:06.093Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:06.096Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
+2021-05-04T09:12:06.096Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/test-m97vmw2nv1et@example.com.json
+2021-05-04T09:12:06.098Z sfdx:AuthInfo INFO Updated auth info for username: test-m97vmw2nv1et@example.com
+2021-05-04T09:12:06.099Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
+2021-05-04T09:12:06.105Z sfdx:core TRACE Setup child 'connection' logger instance
+2021-05-04T09:12:06.128Z sfdx:connection DEBUG Last checked on 5/4/2021, 9:11:40 AM (now is 5/4/2021, 9:12:06 AM) - not getting latest
+2021-05-04T09:12:06.129Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
+2021-05-04T09:12:06.129Z sfdx:connection DEBUG Using apiVersion 51.0
+2021-05-04T09:12:06.130Z sfdx:core TRACE Setup child 'Org' logger instance
+2021-05-04T09:12:06.130Z sfdx:core TRACE Setup child 'Aliases' logger instance
+2021-05-04T09:12:06.131Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
+2021-05-04T09:12:06.132Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
+2021-05-04T09:12:06.132Z sfdx:core TRACE Setup child 'crypto' logger instance
+2021-05-04T09:12:06.133Z sfdx:crypto DEBUG retryStatus: undefined
+2021-05-04T09:12:06.133Z sfdx:core TRACE Setup child 'keyChain' logger instance
+2021-05-04T09:12:06.133Z sfdx:keyChain DEBUG platform: linux
+2021-05-04T09:12:06.134Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:06.134Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:06.135Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:06.135Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:06.137Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
+2021-05-04T09:12:06.137Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/devhub-user@example.com.json
+2021-05-04T09:12:06.138Z sfdx:AuthInfo INFO Updated auth info for username: devhub-user@example.com
+2021-05-04T09:12:06.138Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
+2021-05-04T09:12:06.139Z sfdx:core TRACE Setup child 'connection' logger instance
+2021-05-04T09:12:06.140Z sfdx:connection DEBUG Last checked on 5/4/2021, 9:11:42 AM (now is 5/4/2021, 9:12:06 AM) - not getting latest
+2021-05-04T09:12:06.140Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
+2021-05-04T09:12:06.140Z sfdx:connection DEBUG Using apiVersion 51.0
+2021-05-04T09:12:06.150Z sfdx:OrgCreateCommand DEBUG [
   'Create started with args %s ',
   {
     durationdays: 30,
@@ -327,134 +327,134 @@ Executing: /root/.local/share/sfdx/client/bin/sfdx force:org:create --durationda
     wait: { quantity: 6, unit: 0 }
   }
 ]
-2021-05-04T08:39:37.632Z sfdx:core TRACE Setup child 'org:create' logger instance
-2021-05-04T08:39:37.645Z sfdx:core TRACE Setup child 'Org' logger instance
-2021-05-04T08:39:37.646Z sfdx:core TRACE Setup child 'Aliases' logger instance
-2021-05-04T08:39:37.646Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
-2021-05-04T08:39:37.647Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
-2021-05-04T08:39:37.648Z sfdx:core TRACE Setup child 'crypto' logger instance
-2021-05-04T08:39:37.648Z sfdx:crypto DEBUG retryStatus: undefined
-2021-05-04T08:39:37.648Z sfdx:core TRACE Setup child 'keyChain' logger instance
-2021-05-04T08:39:37.649Z sfdx:keyChain DEBUG platform: linux
-2021-05-04T08:39:37.649Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:37.650Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:37.651Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:37.651Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:37.652Z sfdx:AuthInfo INFO Updated auth info for username: devhub-user@example.com
-2021-05-04T08:39:37.653Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
-2021-05-04T08:39:37.654Z sfdx:core TRACE Setup child 'connection' logger instance
-2021-05-04T08:39:37.655Z sfdx:connection DEBUG Last checked on 5/4/2021, 8:38:44 AM (now is 5/4/2021, 8:39:37 AM) - not getting latest
-2021-05-04T08:39:37.655Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
-2021-05-04T08:39:37.655Z sfdx:connection DEBUG Using apiVersion 51.0
-2021-05-04T08:39:37.661Z sfdx:core TRACE Setup child 'StreamingClient' logger instance
-2021-05-04T08:39:37.662Z sfdx:Org DEBUG Refreshing auth for org.
-2021-05-04T08:39:37.662Z sfdx:connection DEBUG request: {"url":"https://mydomain.my.salesforce.com/services/data/v51.0","method":"GET","headers":{"content-type":"application/json","user-agent":"sfdx toolbelt:"}}
-2021-05-04T08:39:38.003Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
-2021-05-04T08:39:38.004Z sfdx:StreamingClient DEBUG accessToken: XXXXXX30FU
-2021-05-04T08:39:38.004Z sfdx:StreamingClient DEBUG Streaming client target url: https://mydomain.my.salesforce.com/cometd/51.0
-2021-05-04T08:39:38.004Z sfdx:StreamingClient DEBUG options.subscribeTimeout (ms): 360000
-2021-05-04T08:39:38.004Z sfdx:StreamingClient DEBUG options.handshakeTimeout (ms): 30000
-2021-05-04T08:39:38.005Z sfdx:org:create DEBUG Attempting StreamingClient handshake
-2021-05-04T08:39:38.006Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating handshake with "https://mydomain.my.salesforce.com/cometd/51.0"
-2021-05-04T08:39:38.007Z sfdx:StreamingClient DEBUG [Faye.Dispatcher] Selected "long-polling" transport for "https://mydomain.my.salesforce.com/cometd/51.0"
-2021-05-04T08:39:38.008Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/handshake","version":"1.0","supportedConnectionTypes":["in-process","websocket","long-polling"],"id":"1"}
-2021-05-04T08:39:38.009Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client undefined sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/handshake","version":"1.0","supportedConnectionTypes":["in-process","websocket","long-polling"],"id":"1"}
-2021-05-04T08:39:38.020Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
-2021-05-04T08:39:38.184Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client undefined received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"ext":{"replay":true,"payload.format":true},"minimumVersion":"1.0","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","supportedConnectionTypes":["long-polling"],"channel":"/meta/handshake","id":"1","version":"1.0","successful":true}]
-2021-05-04T08:39:38.184Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"ext":{"replay":true,"payload.format":true},"minimumVersion":"1.0","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","supportedConnectionTypes":["long-polling"],"channel":"/meta/handshake","id":"1","version":"1.0","successful":true}
-2021-05-04T08:39:38.185Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:38.185Z sfdx:StreamingClient DEBUG [Faye.Dispatcher] Selected "long-polling" transport for "https://mydomain.my.salesforce.com/cometd/51.0"
-2021-05-04T08:39:38.186Z sfdx:StreamingClient DEBUG [Faye.Client] Handshake successful: "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:38.186Z sfdx:StreamingClient DEBUG Transport up event received
-2021-05-04T08:39:38.186Z sfdx:StreamingClient DEBUG handshake completed
-2021-05-04T08:39:38.187Z sfdx:StreamingClient DEBUG cleared handshake timeout
-2021-05-04T08:39:38.187Z sfdx:org:create DEBUG Finished StreamingClient handshake
-2021-05-04T08:39:38.187Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:38.188Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:38.188Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"2"}
-2021-05-04T08:39:38.188Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"2"}
-2021-05-04T08:39:38.189Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1b7o50wzk7d1l23b3f61iqx0zal" attempting to subscribe to "/event/OrgLifecycleNotification"
-2021-05-04T08:39:38.189Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/subscribe","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","subscription":"/event/OrgLifecycleNotification","id":"3"}
-2021-05-04T08:39:38.189Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/subscribe","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","subscription":"/event/OrgLifecycleNotification","id":"3"}
-2021-05-04T08:39:38.190Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
-2021-05-04T08:39:38.319Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","advice":{"interval":0,"timeout":110000,"reconnect":"retry"},"channel":"/meta/connect","id":"2","successful":true},{"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/subscribe","id":"3","subscription":"/event/OrgLifecycleNotification","successful":true}]
-2021-05-04T08:39:38.319Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","advice":{"interval":0,"timeout":110000,"reconnect":"retry"},"channel":"/meta/connect","id":"2","successful":true}
-2021-05-04T08:39:38.320Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:38.320Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:38.320Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/subscribe","id":"3","subscription":"/event/OrgLifecycleNotification","successful":true}
-2021-05-04T08:39:38.321Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:38.321Z sfdx:StreamingClient DEBUG [Faye.Client] Subscription acknowledged for "1b7o50wzk7d1l23b3f61iqx0zal" to ["/event/OrgLifecycleNotification"]
-2021-05-04T08:39:38.321Z sfdx:org:create DEBUG Subscribing to StreamingClient events
-2021-05-04T08:39:38.322Z sfdx:org:create DEBUG Requesting Org Signup
-2021-05-04T08:39:38.323Z sfdx:core TRACE Setup child 'scratchOrgInfoApi' logger instance
-2021-05-04T08:39:38.326Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:38.327Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:38.327Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"4"}
-2021-05-04T08:39:38.327Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"4"}
-2021-05-04T08:39:38.330Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
-2021-05-04T08:39:40.592Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000008u7MCAAY","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:37.946Z","StatusCode":null},"event":{"replayId":5522}},"channel":"/event/OrgLifecycleNotification"},{"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/connect","id":"4","successful":true}]
-2021-05-04T08:39:40.592Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000008u7MCAAY","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:37.946Z","StatusCode":null},"event":{"replayId":5522}},"channel":"/event/OrgLifecycleNotification"}
-2021-05-04T08:39:40.593Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:40.593Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1b7o50wzk7d1l23b3f61iqx0zal" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000008u7MCAAY","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:37.946Z","StatusCode":null},"event":{"replayId":5522}}
-2021-05-04T08:39:40.597Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/connect","id":"4","successful":true}
-2021-05-04T08:39:40.597Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:40.597Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:40.599Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:40.599Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:40.599Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"5"}
-2021-05-04T08:39:40.600Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"5"}
-2021-05-04T08:39:40.601Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
-2021-05-04T08:39:41.519Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:39.123Z","StatusCode":null},"event":{"replayId":5523}},"channel":"/event/OrgLifecycleNotification"},{"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/connect","id":"5","successful":true}]
-2021-05-04T08:39:41.519Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:39.123Z","StatusCode":null},"event":{"replayId":5523}},"channel":"/event/OrgLifecycleNotification"}
-2021-05-04T08:39:41.520Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:41.520Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1b7o50wzk7d1l23b3f61iqx0zal" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:39.123Z","StatusCode":null},"event":{"replayId":5523}}
-2021-05-04T08:39:41.521Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/connect","id":"5","successful":true}
-2021-05-04T08:39:41.521Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:41.521Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:41.522Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:41.523Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:41.523Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"6"}
-2021-05-04T08:39:41.524Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","connectionType":"long-polling","id":"6"}
-2021-05-04T08:39:41.526Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
-2021-05-04T08:39:49.149Z sfdx:org:create DEBUG Org Signup completed with id: 2SR2p0000008Ve7GAE
-2021-05-04T08:39:51.384Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000D2iUEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:47.817Z","StatusCode":null},"event":{"replayId":5524}},"channel":"/event/OrgLifecycleNotification"},{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000D2iUEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:47.855Z","StatusCode":null},"event":{"replayId":5525}},"channel":"/event/OrgLifecycleNotification"},{"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/connect","id":"6","successful":true}]
-2021-05-04T08:39:51.384Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000D2iUEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:47.817Z","StatusCode":null},"event":{"replayId":5524}},"channel":"/event/OrgLifecycleNotification"}
-2021-05-04T08:39:51.385Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:51.385Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1b7o50wzk7d1l23b3f61iqx0zal" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000D2iUEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:47.817Z","StatusCode":null},"event":{"replayId":5524}}
-2021-05-04T08:39:51.386Z sfdx:StreamingClient DEBUG [Faye.Client] Disconnecting "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:51.386Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/disconnect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","id":"7"}
-2021-05-04T08:39:51.386Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/disconnect","clientId":"1b7o50wzk7d1l23b3f61iqx0zal","id":"7"}
-2021-05-04T08:39:51.387Z sfdx:StreamingClient DEBUG [Faye.Client] Clearing channel listeners for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:51.387Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000D2iUEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:47.855Z","StatusCode":null},"event":{"replayId":5525}},"channel":"/event/OrgLifecycleNotification"}
-2021-05-04T08:39:51.387Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:51.387Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1b7o50wzk7d1l23b3f61iqx0zal" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000D2iUEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008Ve7GAE","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T08:39:47.855Z","StatusCode":null},"event":{"replayId":5525}}
-2021-05-04T08:39:51.388Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/connect","id":"6","successful":true}
-2021-05-04T08:39:51.388Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:51.388Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1b7o50wzk7d1l23b3f61iqx0zal"
-2021-05-04T08:39:51.389Z sfdx:org:create DEBUG Streaming for signup events complete
-2021-05-04T08:39:51.391Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
-2021-05-04T08:39:51.514Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1b7o50wzk7d1l23b3f61iqx0zal" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/disconnect","id":"7","successful":true}]
-2021-05-04T08:39:51.514Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1b7o50wzk7d1l23b3f61iqx0zal","channel":"/meta/disconnect","id":"7","successful":true}
-2021-05-04T08:39:51.515Z sfdx:StreamingClient DEBUG 
-2021-05-04T08:39:51.537Z sfdx:scratchOrgInfoApi DEBUG retrieveScratchOrgInfo status: Active
-2021-05-04T08:39:51.537Z sfdx:org:create DEBUG retrieveScratchOrgInfo: Active
-2021-05-04T08:39:51.539Z sfdx:scratchOrgInfoApi DEBUG _authorize - scratchOrgInfoComplete: {
+2021-05-04T09:12:06.236Z sfdx:core TRACE Setup child 'org:create' logger instance
+2021-05-04T09:12:06.249Z sfdx:core TRACE Setup child 'Org' logger instance
+2021-05-04T09:12:06.249Z sfdx:core TRACE Setup child 'Aliases' logger instance
+2021-05-04T09:12:06.249Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
+2021-05-04T09:12:06.251Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
+2021-05-04T09:12:06.251Z sfdx:core TRACE Setup child 'crypto' logger instance
+2021-05-04T09:12:06.251Z sfdx:crypto DEBUG retryStatus: undefined
+2021-05-04T09:12:06.252Z sfdx:core TRACE Setup child 'keyChain' logger instance
+2021-05-04T09:12:06.252Z sfdx:keyChain DEBUG platform: linux
+2021-05-04T09:12:06.253Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:06.253Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:06.254Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:06.255Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:06.256Z sfdx:AuthInfo INFO Updated auth info for username: devhub-user@example.com
+2021-05-04T09:12:06.257Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
+2021-05-04T09:12:06.258Z sfdx:core TRACE Setup child 'connection' logger instance
+2021-05-04T09:12:06.258Z sfdx:connection DEBUG Last checked on 5/4/2021, 9:11:42 AM (now is 5/4/2021, 9:12:06 AM) - not getting latest
+2021-05-04T09:12:06.258Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
+2021-05-04T09:12:06.258Z sfdx:connection DEBUG Using apiVersion 51.0
+2021-05-04T09:12:06.264Z sfdx:core TRACE Setup child 'StreamingClient' logger instance
+2021-05-04T09:12:06.264Z sfdx:Org DEBUG Refreshing auth for org.
+2021-05-04T09:12:06.265Z sfdx:connection DEBUG request: {"url":"https://mydomain.my.salesforce.com/services/data/v51.0","method":"GET","headers":{"content-type":"application/json","user-agent":"sfdx toolbelt:"}}
+2021-05-04T09:12:06.547Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
+2021-05-04T09:12:06.547Z sfdx:StreamingClient DEBUG accessToken: XXXXXX30FU
+2021-05-04T09:12:06.548Z sfdx:StreamingClient DEBUG Streaming client target url: https://mydomain.my.salesforce.com/cometd/51.0
+2021-05-04T09:12:06.548Z sfdx:StreamingClient DEBUG options.subscribeTimeout (ms): 360000
+2021-05-04T09:12:06.548Z sfdx:StreamingClient DEBUG options.handshakeTimeout (ms): 30000
+2021-05-04T09:12:06.548Z sfdx:org:create DEBUG Attempting StreamingClient handshake
+2021-05-04T09:12:06.549Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating handshake with "https://mydomain.my.salesforce.com/cometd/51.0"
+2021-05-04T09:12:06.550Z sfdx:StreamingClient DEBUG [Faye.Dispatcher] Selected "long-polling" transport for "https://mydomain.my.salesforce.com/cometd/51.0"
+2021-05-04T09:12:06.551Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/handshake","version":"1.0","supportedConnectionTypes":["in-process","websocket","long-polling"],"id":"1"}
+2021-05-04T09:12:06.552Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client undefined sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/handshake","version":"1.0","supportedConnectionTypes":["in-process","websocket","long-polling"],"id":"1"}
+2021-05-04T09:12:06.564Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
+2021-05-04T09:12:06.772Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client undefined received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"ext":{"replay":true,"payload.format":true},"minimumVersion":"1.0","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","supportedConnectionTypes":["long-polling"],"channel":"/meta/handshake","id":"1","version":"1.0","successful":true}]
+2021-05-04T09:12:06.773Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"ext":{"replay":true,"payload.format":true},"minimumVersion":"1.0","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","supportedConnectionTypes":["long-polling"],"channel":"/meta/handshake","id":"1","version":"1.0","successful":true}
+2021-05-04T09:12:06.774Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:06.775Z sfdx:StreamingClient DEBUG [Faye.Dispatcher] Selected "long-polling" transport for "https://mydomain.my.salesforce.com/cometd/51.0"
+2021-05-04T09:12:06.775Z sfdx:StreamingClient DEBUG [Faye.Client] Handshake successful: "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:06.775Z sfdx:StreamingClient DEBUG Transport up event received
+2021-05-04T09:12:06.776Z sfdx:StreamingClient DEBUG handshake completed
+2021-05-04T09:12:06.776Z sfdx:StreamingClient DEBUG cleared handshake timeout
+2021-05-04T09:12:06.776Z sfdx:org:create DEBUG Finished StreamingClient handshake
+2021-05-04T09:12:06.777Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:06.777Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:06.778Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"2"}
+2021-05-04T09:12:06.778Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"2"}
+2021-05-04T09:12:06.778Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" attempting to subscribe to "/event/OrgLifecycleNotification"
+2021-05-04T09:12:06.779Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/subscribe","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","subscription":"/event/OrgLifecycleNotification","id":"3"}
+2021-05-04T09:12:06.779Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/subscribe","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","subscription":"/event/OrgLifecycleNotification","id":"3"}
+2021-05-04T09:12:06.780Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
+2021-05-04T09:12:06.997Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","advice":{"interval":0,"timeout":110000,"reconnect":"retry"},"channel":"/meta/connect","id":"2","successful":true},{"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/subscribe","id":"3","subscription":"/event/OrgLifecycleNotification","successful":true}]
+2021-05-04T09:12:06.998Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","advice":{"interval":0,"timeout":110000,"reconnect":"retry"},"channel":"/meta/connect","id":"2","successful":true}
+2021-05-04T09:12:06.998Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:06.998Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:06.999Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/subscribe","id":"3","subscription":"/event/OrgLifecycleNotification","successful":true}
+2021-05-04T09:12:06.999Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:06.999Z sfdx:StreamingClient DEBUG [Faye.Client] Subscription acknowledged for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" to ["/event/OrgLifecycleNotification"]
+2021-05-04T09:12:07.000Z sfdx:org:create DEBUG Subscribing to StreamingClient events
+2021-05-04T09:12:07.000Z sfdx:org:create DEBUG Requesting Org Signup
+2021-05-04T09:12:07.002Z sfdx:core TRACE Setup child 'scratchOrgInfoApi' logger instance
+2021-05-04T09:12:07.005Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:07.005Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:07.005Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"4"}
+2021-05-04T09:12:07.006Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"4"}
+2021-05-04T09:12:07.009Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
+2021-05-04T09:12:09.315Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000008u7MCAAY","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:07.104Z","StatusCode":null},"event":{"replayId":5538}},"channel":"/event/OrgLifecycleNotification"},{"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/connect","id":"4","successful":true}]
+2021-05-04T09:12:09.316Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000008u7MCAAY","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:07.104Z","StatusCode":null},"event":{"replayId":5538}},"channel":"/event/OrgLifecycleNotification"}
+2021-05-04T09:12:09.316Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:09.316Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000008u7MCAAY","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:07.104Z","StatusCode":null},"event":{"replayId":5538}}
+2021-05-04T09:12:09.319Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/connect","id":"4","successful":true}
+2021-05-04T09:12:09.319Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:09.319Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:09.320Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:09.321Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:09.321Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"5"}
+2021-05-04T09:12:09.321Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"5"}
+2021-05-04T09:12:09.323Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
+2021-05-04T09:12:10.863Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:08.308Z","StatusCode":null},"event":{"replayId":5539}},"channel":"/event/OrgLifecycleNotification"},{"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/connect","id":"5","successful":true}]
+2021-05-04T09:12:10.863Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:08.308Z","StatusCode":null},"event":{"replayId":5539}},"channel":"/event/OrgLifecycleNotification"}
+2021-05-04T09:12:10.863Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:10.864Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"New","OrgId":null,"CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:08.308Z","StatusCode":null},"event":{"replayId":5539}}
+2021-05-04T09:12:10.864Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/connect","id":"5","successful":true}
+2021-05-04T09:12:10.865Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:10.865Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:10.866Z sfdx:StreamingClient DEBUG [Faye.Client] Calling deferred actions for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:10.866Z sfdx:StreamingClient DEBUG [Faye.Client] Initiating connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:10.866Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"6"}
+2021-05-04T09:12:10.866Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/connect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","connectionType":"long-polling","id":"6"}
+2021-05-04T09:12:10.868Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
+2021-05-04T09:12:19.447Z sfdx:org:create DEBUG Org Signup completed with id: 2SR2p0000008VeRGAU
+2021-05-04T09:12:20.632Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000CujVEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:18.063Z","StatusCode":null},"event":{"replayId":5540}},"channel":"/event/OrgLifecycleNotification"},{"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000CujVEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:18.105Z","StatusCode":null},"event":{"replayId":5541}},"channel":"/event/OrgLifecycleNotification"},{"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/connect","id":"6","successful":true}]
+2021-05-04T09:12:20.632Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000CujVEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:18.063Z","StatusCode":null},"event":{"replayId":5540}},"channel":"/event/OrgLifecycleNotification"}
+2021-05-04T09:12:20.633Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:20.633Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000CujVEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:18.063Z","StatusCode":null},"event":{"replayId":5540}}
+2021-05-04T09:12:20.634Z sfdx:StreamingClient DEBUG [Faye.Client] Disconnecting "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:20.634Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "outgoing" extensions: {"channel":"/meta/disconnect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","id":"7"}
+2021-05-04T09:12:20.635Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" sending message to "https://mydomain.my.salesforce.com/cometd/51.0": {"channel":"/meta/disconnect","clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","id":"7"}
+2021-05-04T09:12:20.635Z sfdx:StreamingClient DEBUG [Faye.Client] Clearing channel listeners for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:20.636Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"data":{"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000CujVEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:18.105Z","StatusCode":null},"event":{"replayId":5541}},"channel":"/event/OrgLifecycleNotification"}
+2021-05-04T09:12:20.636Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:20.636Z sfdx:StreamingClient DEBUG [Faye.Client] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" calling listeners for "/event/OrgLifecycleNotification" with {"schema":"TPBG_sjaj7WiPbCu5llinA","payload":{"Status":"Active","OrgId":"00D1j000000CujVEAS","CreatedById":"0052p000009bbwLAAQ","LifecycleRequestId":"2SR2p0000008VeRGAU","LifecycleRequestType":"ScratchOrgInfo","CreatedDate":"2021-05-04T09:12:18.105Z","StatusCode":null},"event":{"replayId":5541}}
+2021-05-04T09:12:20.636Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/connect","id":"6","successful":true}
+2021-05-04T09:12:20.637Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:20.637Z sfdx:StreamingClient DEBUG [Faye.Client] Closed connection for "1qy1gl3uvuqcg0c51u8q1s7u2pnh4"
+2021-05-04T09:12:20.637Z sfdx:org:create DEBUG Streaming for signup events complete
+2021-05-04T09:12:20.640Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] this._dispatcher.cookiesAllowAllPaths: true
+2021-05-04T09:12:20.750Z sfdx:StreamingClient DEBUG [Faye.NodeHttp] Client "1qy1gl3uvuqcg0c51u8q1s7u2pnh4" received from "https://mydomain.my.salesforce.com/cometd/51.0" via "long-polling": [{"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/disconnect","id":"7","successful":true}]
+2021-05-04T09:12:20.751Z sfdx:StreamingClient DEBUG [Faye.Client] Passing through "incoming" extensions: {"clientId":"1qy1gl3uvuqcg0c51u8q1s7u2pnh4","channel":"/meta/disconnect","id":"7","successful":true}
+2021-05-04T09:12:20.751Z sfdx:StreamingClient DEBUG 
+2021-05-04T09:12:20.971Z sfdx:scratchOrgInfoApi DEBUG retrieveScratchOrgInfo status: Active
+2021-05-04T09:12:20.971Z sfdx:org:create DEBUG retrieveScratchOrgInfo: Active
+2021-05-04T09:12:20.973Z sfdx:scratchOrgInfoApi DEBUG _authorize - scratchOrgInfoComplete: {
     "attributes": {
         "type": "ScratchOrgInfo",
-        "url": "/services/data/v51.0/sobjects/ScratchOrgInfo/2SR2p0000008Ve7GAE"
+        "url": "/services/data/v51.0/sobjects/ScratchOrgInfo/2SR2p0000008VeRGAU"
     },
-    "Id": "2SR2p0000008Ve7GAE",
+    "Id": "2SR2p0000008VeRGAU",
     "OwnerId": "0052p000008u7MCAAY",
     "IsDeleted": false,
-    "Name": "00001125",
+    "Name": "00001129",
     "CurrencyIsoCode": "EUR",
-    "CreatedDate": "2021-05-04T08:39:37.000+0000",
+    "CreatedDate": "2021-05-04T09:12:07.000+0000",
     "CreatedById": "0052p000008u7MCAAY",
-    "LastModifiedDate": "2021-05-04T08:39:47.000+0000",
+    "LastModifiedDate": "2021-05-04T09:12:18.000+0000",
     "LastModifiedById": "0052p000009bbwLAAQ",
-    "SystemModstamp": "2021-05-04T08:39:47.000+0000",
-    "LastViewedDate": "2021-05-04T08:39:37.000+0000",
-    "LastReferencedDate": "2021-05-04T08:39:37.000+0000",
+    "SystemModstamp": "2021-05-04T09:12:18.000+0000",
+    "LastViewedDate": "2021-05-04T09:12:07.000+0000",
+    "LastReferencedDate": "2021-05-04T09:12:07.000+0000",
     "Edition": "Developer",
     "Username": null,
     "AdminEmail": null,
@@ -471,99 +471,99 @@ Executing: /root/.local/share/sfdx/client/bin/sfdx force:org:create --durationda
     "SourceOrg": null,
     "HasSampleData": false,
     "Release": "Current",
-    "SignupUsername": "test-gue6w0r443up@example.com",
+    "SignupUsername": "test-po8bpmzsyq5j@example.com",
     "Status": "Active",
     "ErrorCode": null,
-    "ScratchOrg": "00D1j000000D2iU",
+    "ScratchOrg": "00D1j000000CujV",
     "SignupInstance": "CS102",
-    "AuthCode": "aPrx.PpL77B6qwccdJtRtarErbr5cx.KpMJzo5XRV8qImt3TA7km2cEPB_B01heOtLBLAoCoeQ==",
+    "AuthCode": "aPrx.PpL77B6qwf1UiWM7zjafhdVsZ0R6qki7rggos.cv095h1WO3Gfl2he4jL2M5H1yeMvGWA==",
     "SignupCountry": "DE",
     "SignupLanguage": "de",
     "SignupEmail": "devhub-user@example.com",
     "SignupTrialDays": 30,
-    "LoginUrl": "https://fun-drive-8987-dev-ed.cs102.my.salesforce.com/",
+    "LoginUrl": "https://momentum-connect-4184-dev-ed.cs102.my.salesforce.com/",
     "Description": null,
     "ExpirationDate": "2021-06-03",
     "LastLoginDate": null,
     "DeletedBy": null,
     "DeletedDate": null
 }
-2021-05-04T08:39:51.549Z sfdx:scratchOrgInfoApi DEBUG _authorize - isJwtFlow: false
-2021-05-04T08:39:51.549Z sfdx:scratchOrgInfoApi DEBUG _authorize - oauthConfig: {
+2021-05-04T09:12:20.985Z sfdx:scratchOrgInfoApi DEBUG _authorize - isJwtFlow: false
+2021-05-04T09:12:20.985Z sfdx:scratchOrgInfoApi DEBUG _authorize - oauthConfig: {
     "clientId": "PlatformCLI",
     "createdOrgInstance": "CS102",
     "loginUrl": "https://CS102.salesforce.com",
     "redirectUri": "http://localhost:1717/OauthRedirect",
-    "authCode": "aPrx.PpL77B6qwccdJtRtarErbr5cx.KpMJzo5XRV8qImt3TA7km2cEPB_B01heOtLBLAoCoeQ==",
+    "authCode": "aPrx.PpL77B6qwf1UiWM7zjafhdVsZ0R6qki7rggos.cv095h1WO3Gfl2he4jL2M5H1yeMvGWA==",
     "devHubUsername": "devhub-user@example.com",
-    "created": "1620117591549",
+    "created": "1620119540985",
     "expirationDate": "2021-06-03"
 }
-2021-05-04T08:39:52.415Z sfdx:core TRACE Setup child 'Config' logger instance
-2021-05-04T08:39:52.415Z sfdx:Config INFO Reading config file: /workspaces/sfdx-org-create/.sfdx/sfdx-config.json
-2021-05-04T08:39:52.419Z sfdx:Config INFO Writing to config file: /workspaces/sfdx-org-create/.sfdx/sfdx-config.json
-2021-05-04T08:39:52.420Z sfdx:scratchOrgInfoApi DEBUG _authorize - orgConfig.loginUrl: https://CS102.salesforce.com
-2021-05-04T08:39:52.420Z sfdx:scratchOrgInfoApi DEBUG _authorize - orgConfig.instanceUrl: https://fun-drive-8987-dev-ed.cs102.my.salesforce.com
-2021-05-04T08:39:52.542Z sfdx:core TRACE Setup child 'MetadataTransportInfo' logger instance
-2021-05-04T08:39:52.543Z sfdx:MetadataTransportInfo DEBUG soapdeploy option unset. restDeploy SFDX config unset.  Defaulting to SOAP
-2021-05-04T08:39:52.733Z sfdx:core TRACE Setup child 'MetadataTransportInfo' logger instance
-2021-05-04T08:39:52.733Z sfdx:MetadataTransportInfo DEBUG soapdeploy option unset. restDeploy SFDX config unset.  Defaulting to SOAP
-2021-05-04T08:39:59.094Z sfdx:scratchOrgInfoApi DEBUG processScratchOrgInfoResult - scratchOrgInfoResult.LoginUrl: https://fun-drive-8987-dev-ed.cs102.my.salesforce.com/
-2021-05-04T08:39:59.106Z sfdx:scratchOrgInfoApi DEBUG processScratchOrgInfoResult - resultData.instanceUrl: "https://fun-drive-8987-dev-ed.cs102.my.salesforce.com/"
-2021-05-04T08:39:59.107Z sfdx:core TRACE Setup child 'MyDomainResolver' logger instance
-2021-05-04T08:39:59.108Z sfdx:core TRACE Setup child 'PollingClient' logger instance
-2021-05-04T08:39:59.108Z sfdx:MyDomainResolver DEBUG Attempting to resolve url: fun-drive-8987-dev-ed.cs102.my.salesforce.com
-2021-05-04T08:39:59.131Z sfdx:MyDomainResolver DEBUG Successfully resolved host: fun-drive-8987-dev-ed.cs102.my.salesforce.com result: {"address":"85.222.155.162","family":4}
-2021-05-04T08:39:59.131Z sfdx:PollingClient DEBUG Clearing the timeout interval
-2021-05-04T08:39:59.243Z sfdx:core TRACE Setup child 'RemoteSourceTrackingService' logger instance
-2021-05-04T08:39:59.244Z sfdx:core TRACE Setup child 'Org' logger instance
-2021-05-04T08:39:59.245Z sfdx:core TRACE Setup child 'Aliases' logger instance
-2021-05-04T08:39:59.245Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
-2021-05-04T08:39:59.250Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
-2021-05-04T08:39:59.250Z sfdx:core TRACE Setup child 'crypto' logger instance
-2021-05-04T08:39:59.250Z sfdx:crypto DEBUG retryStatus: undefined
-2021-05-04T08:39:59.251Z sfdx:core TRACE Setup child 'keyChain' logger instance
-2021-05-04T08:39:59.251Z sfdx:keyChain DEBUG platform: linux
-2021-05-04T08:39:59.252Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:59.253Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:59.255Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
-2021-05-04T08:39:59.255Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
-2021-05-04T08:39:59.258Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
-2021-05-04T08:39:59.258Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/test-gue6w0r443up@example.com.json
-2021-05-04T08:39:59.260Z sfdx:AuthInfo INFO Updated auth info for username: test-gue6w0r443up@example.com
-2021-05-04T08:39:59.260Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
-2021-05-04T08:39:59.261Z sfdx:core TRACE Setup child 'connection' logger instance
-2021-05-04T08:39:59.262Z sfdx:connection DEBUG Using the latest because lastChecked=undefined and SFDX_IGNORE_API_VERSION_CACHE=false
-2021-05-04T08:39:59.262Z sfdx:core TRACE Setup child 'MyDomainResolver' logger instance
-2021-05-04T08:39:59.263Z sfdx:core TRACE Setup child 'PollingClient' logger instance
-2021-05-04T08:39:59.263Z sfdx:MyDomainResolver DEBUG Attempting to resolve url: fun-drive-8987-dev-ed.cs102.my.salesforce.com
-2021-05-04T08:39:59.269Z sfdx:MyDomainResolver DEBUG Successfully resolved host: fun-drive-8987-dev-ed.cs102.my.salesforce.com result: {"address":"85.222.155.162","family":4}
-2021-05-04T08:39:59.269Z sfdx:PollingClient DEBUG Clearing the timeout interval
-2021-05-04T08:39:59.270Z sfdx:connection DEBUG request: {"method":"GET","url":"https://fun-drive-8987-dev-ed.cs102.my.salesforce.com//services/data","headers":{"content-type":"application/json","user-agent":"sfdx toolbelt:"}}
-2021-05-04T08:39:59.353Z sfdx:connection DEBUG response for org versions: 20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0
-2021-05-04T08:39:59.353Z sfdx:AuthInfo INFO Updated auth info for username: test-gue6w0r443up@example.com
-2021-05-04T08:39:59.354Z sfdx:AuthInfo DEBUG 
-2021-05-04T08:39:59.355Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
-2021-05-04T08:39:59.355Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/test-gue6w0r443up@example.com.json
-2021-05-04T08:39:59.358Z sfdx:AuthInfoConfig INFO Writing to config file: /root/.sfdx/test-gue6w0r443up@example.com.json
-2021-05-04T08:39:59.359Z sfdx:AuthInfo INFO Saved auth info for username: test-gue6w0r443up@example.com
-2021-05-04T08:39:59.359Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
-2021-05-04T08:39:59.359Z sfdx:connection DEBUG Using apiVersion 51.0
-2021-05-04T08:39:59.360Z sfdx:core TRACE Setup child 'RemoteSourceTrackingService' logger instance
-2021-05-04T08:39:59.360Z sfdx:RemoteSourceTrackingService INFO Reading config file: /workspaces/sfdx-org-create/.sfdx/orgs/test-gue6w0r443up@example.com/maxRevision.json
-2021-05-04T08:39:59.361Z sfdx:RemoteSourceTrackingService DEBUG SELECT MemberType, MemberName, IsNameObsolete, RevisionCounter FROM SourceMember WHERE RevisionCounter > 0
-2021-05-04T08:39:59.362Z sfdx:connection DEBUG >>> Query start >>>
-2021-05-04T08:39:59.362Z sfdx:connection DEBUG SOQL = SELECT MemberType, MemberName, IsNameObsolete, RevisionCounter FROM SourceMember WHERE RevisionCounter > 0
-2021-05-04T08:39:59.362Z sfdx:connection DEBUG request: {"method":"GET","url":"https://fun-drive-8987-dev-ed.cs102.my.salesforce.com//services/data/v51.0/tooling/query?q=SELECT%20MemberType%2C%20MemberName%2C%20IsNameObsolete%2C%20RevisionCounter%20FROM%20SourceMember%20WHERE%20RevisionCounter%20%3E%200","headers":{"content-type":"application/json","user-agent":"sfdx toolbelt:"}}
-2021-05-04T08:39:59.456Z sfdx:connection DEBUG *** Query finished ***
-2021-05-04T08:39:59.457Z sfdx:RemoteSourceTrackingService DEBUG Initializing source tracking state
-2021-05-04T08:39:59.458Z sfdx:RemoteSourceTrackingService INFO Writing to config file: /workspaces/sfdx-org-create/.sfdx/orgs/test-gue6w0r443up@example.com/maxRevision.json
-2021-05-04T08:39:59.460Z @oclif/config start postorgcreate hook
-2021-05-04T08:39:59.461Z @oclif/config postorgcreate hook done
-Successfully created scratch org: 00D1j000000D2iUEAS, username: test-gue6w0r443up@example.com
-2021-05-04T08:39:59.462Z sfdx:OrgCreateCommand INFO Successfully created scratch org: 00D1j000000D2iUEAS, username: test-gue6w0r443up@example.com
-2021-05-04T08:39:59.462Z @oclif/config start postrun hook
-2021-05-04T08:39:59.463Z @oclif/config postrun hook done
-2021-05-04T08:39:59.509Z lazy-require saving type cache to /root/.cache/sfdx/module-types.json
-2021-05-04T08:39:59.509Z lazy-require no changes to save
-2021-05-04T08:39:59.511Z sfdx:telemetry@1.1.2 Spawning "/root/.local/share/sfdx/client/7.99.0-79e53c6/bin/node /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/processes/upload /root/.cache/sfdx /tmp/sfdx-telemetry/telemetry-466b0d487cd6371663f6a855952687d3f98760cf.log"
+2021-05-04T09:12:21.875Z sfdx:core TRACE Setup child 'Config' logger instance
+2021-05-04T09:12:21.875Z sfdx:Config INFO Reading config file: /workspaces/sfdx-org-create/.sfdx/sfdx-config.json
+2021-05-04T09:12:21.878Z sfdx:Config INFO Writing to config file: /workspaces/sfdx-org-create/.sfdx/sfdx-config.json
+2021-05-04T09:12:21.879Z sfdx:scratchOrgInfoApi DEBUG _authorize - orgConfig.loginUrl: https://CS102.salesforce.com
+2021-05-04T09:12:21.880Z sfdx:scratchOrgInfoApi DEBUG _authorize - orgConfig.instanceUrl: https://momentum-connect-4184-dev-ed.cs102.my.salesforce.com
+2021-05-04T09:12:22.006Z sfdx:core TRACE Setup child 'MetadataTransportInfo' logger instance
+2021-05-04T09:12:22.007Z sfdx:MetadataTransportInfo DEBUG soapdeploy option unset. restDeploy SFDX config unset.  Defaulting to SOAP
+2021-05-04T09:12:22.291Z sfdx:core TRACE Setup child 'MetadataTransportInfo' logger instance
+2021-05-04T09:12:22.291Z sfdx:MetadataTransportInfo DEBUG soapdeploy option unset. restDeploy SFDX config unset.  Defaulting to SOAP
+2021-05-04T09:12:28.766Z sfdx:scratchOrgInfoApi DEBUG processScratchOrgInfoResult - scratchOrgInfoResult.LoginUrl: https://momentum-connect-4184-dev-ed.cs102.my.salesforce.com/
+2021-05-04T09:12:28.772Z sfdx:scratchOrgInfoApi DEBUG processScratchOrgInfoResult - resultData.instanceUrl: "https://momentum-connect-4184-dev-ed.cs102.my.salesforce.com/"
+2021-05-04T09:12:28.773Z sfdx:core TRACE Setup child 'MyDomainResolver' logger instance
+2021-05-04T09:12:28.774Z sfdx:core TRACE Setup child 'PollingClient' logger instance
+2021-05-04T09:12:28.774Z sfdx:MyDomainResolver DEBUG Attempting to resolve url: momentum-connect-4184-dev-ed.cs102.my.salesforce.com
+2021-05-04T09:12:28.852Z sfdx:MyDomainResolver DEBUG Successfully resolved host: momentum-connect-4184-dev-ed.cs102.my.salesforce.com result: {"address":"85.222.155.162","family":4}
+2021-05-04T09:12:28.853Z sfdx:PollingClient DEBUG Clearing the timeout interval
+2021-05-04T09:12:29.051Z sfdx:core TRACE Setup child 'RemoteSourceTrackingService' logger instance
+2021-05-04T09:12:29.052Z sfdx:core TRACE Setup child 'Org' logger instance
+2021-05-04T09:12:29.052Z sfdx:core TRACE Setup child 'Aliases' logger instance
+2021-05-04T09:12:29.053Z sfdx:Aliases INFO Reading config file: /root/.sfdx/alias.json
+2021-05-04T09:12:29.057Z sfdx:core TRACE Setup child 'AuthInfo' logger instance
+2021-05-04T09:12:29.058Z sfdx:core TRACE Setup child 'crypto' logger instance
+2021-05-04T09:12:29.058Z sfdx:crypto DEBUG retryStatus: undefined
+2021-05-04T09:12:29.058Z sfdx:core TRACE Setup child 'keyChain' logger instance
+2021-05-04T09:12:29.059Z sfdx:keyChain DEBUG platform: linux
+2021-05-04T09:12:29.060Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:29.060Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:29.062Z sfdx:core TRACE Setup child 'KeychainConfig' logger instance
+2021-05-04T09:12:29.062Z sfdx:KeychainConfig INFO Reading config file: /root/.sfdx/key.json
+2021-05-04T09:12:29.063Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
+2021-05-04T09:12:29.063Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/test-po8bpmzsyq5j@example.com.json
+2021-05-04T09:12:29.064Z sfdx:AuthInfo INFO Updated auth info for username: test-po8bpmzsyq5j@example.com
+2021-05-04T09:12:29.065Z sfdx:AuthInfo INFO Returning fields for a connection using OAuth config.
+2021-05-04T09:12:29.066Z sfdx:core TRACE Setup child 'connection' logger instance
+2021-05-04T09:12:29.066Z sfdx:connection DEBUG Using the latest because lastChecked=undefined and SFDX_IGNORE_API_VERSION_CACHE=false
+2021-05-04T09:12:29.067Z sfdx:core TRACE Setup child 'MyDomainResolver' logger instance
+2021-05-04T09:12:29.067Z sfdx:core TRACE Setup child 'PollingClient' logger instance
+2021-05-04T09:12:29.067Z sfdx:MyDomainResolver DEBUG Attempting to resolve url: momentum-connect-4184-dev-ed.cs102.my.salesforce.com
+2021-05-04T09:12:29.072Z sfdx:MyDomainResolver DEBUG Successfully resolved host: momentum-connect-4184-dev-ed.cs102.my.salesforce.com result: {"address":"85.222.155.162","family":4}
+2021-05-04T09:12:29.072Z sfdx:PollingClient DEBUG Clearing the timeout interval
+2021-05-04T09:12:29.072Z sfdx:connection DEBUG request: {"method":"GET","url":"https://momentum-connect-4184-dev-ed.cs102.my.salesforce.com//services/data","headers":{"content-type":"application/json","user-agent":"sfdx toolbelt:"}}
+2021-05-04T09:12:29.158Z sfdx:connection DEBUG response for org versions: 20.0,21.0,22.0,23.0,24.0,25.0,26.0,27.0,28.0,29.0,30.0,31.0,32.0,33.0,34.0,35.0,36.0,37.0,38.0,39.0,40.0,41.0,42.0,43.0,44.0,45.0,46.0,47.0,48.0,49.0,50.0,51.0
+2021-05-04T09:12:29.159Z sfdx:AuthInfo INFO Updated auth info for username: test-po8bpmzsyq5j@example.com
+2021-05-04T09:12:29.160Z sfdx:AuthInfo DEBUG 
+2021-05-04T09:12:29.161Z sfdx:core TRACE Setup child 'AuthInfoConfig' logger instance
+2021-05-04T09:12:29.161Z sfdx:AuthInfoConfig INFO Reading config file: /root/.sfdx/test-po8bpmzsyq5j@example.com.json
+2021-05-04T09:12:29.163Z sfdx:AuthInfoConfig INFO Writing to config file: /root/.sfdx/test-po8bpmzsyq5j@example.com.json
+2021-05-04T09:12:29.164Z sfdx:AuthInfo INFO Saved auth info for username: test-po8bpmzsyq5j@example.com
+2021-05-04T09:12:29.164Z sfdx:connection DEBUG Loaded latest apiVersion 51.0
+2021-05-04T09:12:29.164Z sfdx:connection DEBUG Using apiVersion 51.0
+2021-05-04T09:12:29.165Z sfdx:core TRACE Setup child 'RemoteSourceTrackingService' logger instance
+2021-05-04T09:12:29.165Z sfdx:RemoteSourceTrackingService INFO Reading config file: /workspaces/sfdx-org-create/.sfdx/orgs/test-po8bpmzsyq5j@example.com/maxRevision.json
+2021-05-04T09:12:29.166Z sfdx:RemoteSourceTrackingService DEBUG SELECT MemberType, MemberName, IsNameObsolete, RevisionCounter FROM SourceMember WHERE RevisionCounter > 0
+2021-05-04T09:12:29.167Z sfdx:connection DEBUG >>> Query start >>>
+2021-05-04T09:12:29.167Z sfdx:connection DEBUG SOQL = SELECT MemberType, MemberName, IsNameObsolete, RevisionCounter FROM SourceMember WHERE RevisionCounter > 0
+2021-05-04T09:12:29.167Z sfdx:connection DEBUG request: {"method":"GET","url":"https://momentum-connect-4184-dev-ed.cs102.my.salesforce.com//services/data/v51.0/tooling/query?q=SELECT%20MemberType%2C%20MemberName%2C%20IsNameObsolete%2C%20RevisionCounter%20FROM%20SourceMember%20WHERE%20RevisionCounter%20%3E%200","headers":{"content-type":"application/json","user-agent":"sfdx toolbelt:"}}
+2021-05-04T09:12:29.271Z sfdx:connection DEBUG *** Query finished ***
+2021-05-04T09:12:29.272Z sfdx:RemoteSourceTrackingService DEBUG Initializing source tracking state
+2021-05-04T09:12:29.274Z sfdx:RemoteSourceTrackingService INFO Writing to config file: /workspaces/sfdx-org-create/.sfdx/orgs/test-po8bpmzsyq5j@example.com/maxRevision.json
+2021-05-04T09:12:29.275Z @oclif/config start postorgcreate hook
+2021-05-04T09:12:29.277Z @oclif/config postorgcreate hook done
+Successfully created scratch org: 00D1j000000CujVEAS, username: test-po8bpmzsyq5j@example.com
+2021-05-04T09:12:29.278Z sfdx:OrgCreateCommand INFO Successfully created scratch org: 00D1j000000CujVEAS, username: test-po8bpmzsyq5j@example.com
+2021-05-04T09:12:29.279Z @oclif/config start postrun hook
+2021-05-04T09:12:29.284Z @oclif/config postrun hook done
+2021-05-04T09:12:29.315Z lazy-require saving type cache to /root/.cache/sfdx/module-types.json
+2021-05-04T09:12:29.315Z lazy-require no changes to save
+2021-05-04T09:12:29.318Z sfdx:telemetry@1.1.2 Spawning "/root/.local/share/sfdx/client/7.99.0-79e53c6/bin/node /root/.local/share/sfdx/client/7.99.0-79e53c6/node_modules/@salesforce/plugin-telemetry/processes/upload /root/.cache/sfdx /tmp/sfdx-telemetry/telemetry-6f1c56216fd9262065456ae0c1048561e12e7a33.log"
